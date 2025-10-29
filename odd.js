@@ -4,5 +4,6 @@ while (num <= 100) {
     if (num % 2 === 1) {
         console.log("number is odd", num);
     }
+
     num++;
 }
