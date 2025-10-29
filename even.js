@@ -6,3 +6,9 @@ while (num < 10) {
     }
     num++;
 }
+let sum = 0;
+for (let n = 206; n < 311; n++) {
+    sum = sum + n;
+    console.log(n);
+}
+console.log("total even numbers 206 to 311 is", sum);
